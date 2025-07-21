@@ -1,0 +1,28 @@
+import random,os,sys,time,colorama
+from cfonts import render
+from colorama import Fore,Style
+os.system('clear')
+n = render('Sajad', colors=['white', 'green'], align='center')
+print(n)
+time.sleep(4)
+try:
+    import colorama
+    import cython
+    import zipfile
+    import shutil
+except ImportError:
+    os.system('pip3.11 install colorama')
+    os.system('pip3.9 install colorama')
+    os.system('pip3.11 install shutil')
+    os.system('pip3.9 install shutil')
+    os.system('pip3.11 install cython')
+    os.system('pip3.9 install cython')
+    os.system('pip3.11 install zipfile')
+    os.system('pip3.9 install zipfile')
+colors = [Fore.RED,Fore.GREEN,Fore.YELLOW,Fore.BLUE,Fore.MAGENTA,Fore.CYAN]
+color = random.choice(colors)
+print(f"{color}The Encode By Sajad-@f_g_d_6" + Style.RESET_ALL)
+o = input('Code : ')
+print('Correct Code ✅' if o == 'Sajad_CRC99' else 'The Code Is Incorrect ❌')
+#تم تطوير التشويش،بواسطة سجاد
+#التحدي سهل، والكودّ هوا CRC
